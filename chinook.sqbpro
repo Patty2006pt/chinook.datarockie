@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/napat/Downloads/chinook.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="browser pragmas query" current="2"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3287"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="invoices" custom_title="0" dock_id="1" table="4,8:maininvoices"/><dock_state state="000000ff00000000fd00000001000000020000043a000002dffc0100000001fb000000160064006f0063006b00420072006f007700730065003101000000000000043a0000011500ffffff0000043a0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="albums" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="63"/><column index="2" value="300"/><column index="3" value="59"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="artists" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="58"/><column index="2" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="84"/><column index="2" value="75"/><column index="3" value="77"/><column index="4" value="251"/><column index="5" value="222"/><column index="6" value="112"/><column index="7" value="43"/><column index="8" value="89"/><column index="9" value="82"/><column index="10" value="114"/><column index="11" value="110"/><column index="12" value="156"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="employees" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="84"/><column index="2" value="73"/><column index="3" value="75"/><column index="4" value="109"/><column index="5" value="75"/><column index="6" value="114"/><column index="7" value="115"/><column index="8" value="155"/><column index="9" value="64"/><column index="10" value="43"/><column index="11" value="61"/><column index="12" value="82"/><column index="13" value="104"/><column index="14" value="104"/><column index="15" value="145"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="genres" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="60"/><column index="2" value="105"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="invoice_items" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="94"/><column index="2" value="68"/><column index="3" value="59"/><column index="4" value="68"/><column index="5" value="64"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="invoices" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="67"/><column index="2" value="86"/><column index="3" value="115"/><column index="4" value="222"/><column index="5" value="112"/><column index="6" value="83"/><column index="7" value="101"/><column index="8" value="123"/><column index="9" value="40"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1*">-- Create new collumn and rename (merge)
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/napat/Downloads/chinook.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="browser pragmas query" current="2"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3287"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="invoices" custom_title="0" dock_id="1" table="4,8:maininvoices"/><dock_state state="000000ff00000000fd00000001000000020000043a000002dffc0100000001fb000000160064006f0063006b00420072006f007700730065003101000000000000043a0000012900ffffff0000043a0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="albums" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="63"/><column index="2" value="300"/><column index="3" value="59"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="artists" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="58"/><column index="2" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="84"/><column index="2" value="75"/><column index="3" value="77"/><column index="4" value="251"/><column index="5" value="222"/><column index="6" value="112"/><column index="7" value="43"/><column index="8" value="89"/><column index="9" value="82"/><column index="10" value="114"/><column index="11" value="110"/><column index="12" value="156"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="employees" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="84"/><column index="2" value="73"/><column index="3" value="75"/><column index="4" value="109"/><column index="5" value="75"/><column index="6" value="114"/><column index="7" value="115"/><column index="8" value="155"/><column index="9" value="64"/><column index="10" value="43"/><column index="11" value="61"/><column index="12" value="82"/><column index="13" value="104"/><column index="14" value="104"/><column index="15" value="145"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="genres" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="60"/><column index="2" value="105"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="invoice_items" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="94"/><column index="2" value="68"/><column index="3" value="59"/><column index="4" value="68"/><column index="5" value="64"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="invoices" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort><column index="2" mode="0"/></sort><column_widths><column index="1" value="67"/><column index="2" value="86"/><column index="3" value="115"/><column index="4" value="222"/><column index="5" value="112"/><column index="6" value="83"/><column index="7" value="101"/><column index="8" value="123"/><column index="9" value="40"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">-- Create new collumn and rename (merge)
 -- lower = ตัวพิมใหญ่เปลี่ยนเป็นตัวพิมเล็ก Upper = เปลี่ยนเป็นตัวพิมใหญ่
 
 SELECT 
@@ -19,10 +19,146 @@ SELECT
  
  
  
- </sql><sql name="SQL 3*">-- change ตัวเลขเป็นทศนิยม สองตำแหน่งด้วย
+ </sql><sql name="SQL 3">-- change ตัวเลขเป็นทศนิยม สองตำแหน่งด้วย
 
 SELECT  
          name, 
           round  (Milliseconds/60000.0, 2)   AS minute, 
 		  round  (Bytes /(1024*1024.0), 2)   AS mb
-FROM tracks;</sql><current_tab id="1"/></tab_sql></sqlb_project>
+FROM tracks;</sql><sql name="SQL 4*">-- condition logic ถ้าไม่ใช้ค่าว่าง = corporate แต่ถ้าว่าง = End customers
+
+SELECT 
+         Company   ,
+		  CASE
+		     WHEN Company Is NOT NULL THEN ' Corporate '
+		     ELSE 'End customers'
+		  END AS segment
+		  
+from customers ;</sql><sql name="SQL 5*">-- select datetime 
+
+SELECT 
+          InvoiceDate,
+		  strftime( '%Y', InvoiceDate ) AS Year,
+		  strftime( '%m', InvoiceDate ) AS Month,
+		  strftime( ' %d', InvoiceDate ) AS Day,
+		  strftime( '%Y-%m' , InvoiceDate) AS MonthID
+FROM invoices 
+WHERE Year = '2010' ;</sql><sql name="SQL 6*">-- join table
+
+SELECT * FROM artists 
+JOIN albums 
+On artists .ArtistId = albums.ArtistId
+where artists.ArtistId = 100 ;</sql><sql name="SQL 7*">--random function
+SELECT name,  random () from tracks 
+ORDER BY random();
+
+-- เรียงจากน้อยมามาก
+SELECT name,  random () from tracks 
+ORDER BY random ()DESC ;</sql><sql name="SQL 8*">-- lower case
+SELECT * FROM customers
+WHERE lower (Country) = 'usa' ;
+--AND logic
+SELECT * FROM customers
+WHERE lower (Country) = 'usa' AND State = 'NY' ;
+--OR logic
+SELECT * FROM customers
+WHERE lower (Country) = 'usa' OR Country = 'Canada' ;
+--NOT  logic
+SELECT * FROM customers
+WHERE NOT (lower (Country) = 'usa' OR Country = 'Canada' );
+--FILTER data
+SELECT * FROM customers
+WHERE Country = 'Brazil' or Country = 'Norway' or Country = 'Germany' ;
+-- ใช้ IN แทน OR ได้เพื่อความกระชับ
+SELECT * FROM customers
+WHERE Country  IN ( 'Brazil' , 'Norway' , 'Germany' );
+--เงื่อนใขที่ไม่อยู่ในสามเงื่อนใขนี้จะขึ้นมาแทน
+SELECT * FROM customers
+WHERE Country  NOT IN ( 'Brazil' , 'Norway' , 'Germany' );
+</sql><sql name="SQL 9*">--BETWEEN logic
+SELECT * FROM customers
+WHERE CustomerId  BETWEEN 5 AND 10;
+
+SELECT InvoiceDate FROM invoices
+Where InvoiceDate Between '2009-01-01 00:00:00' AND '2009-01-19 00:00:00' ;</sql><sql name="SQL 10*">-- wild class
+SELECT FirstName , LastName , Country, Email from customers
+WHERE Email like '%@gmail.com' AND Country = 'USA' ;</sql><sql name="SQL 11*">--  _ ใช้ในกรณีที่ไม่รู้ว่าเขียนถูกไหม
+SELECT FirstName , LastName , Country, Email, Phone from customers 
+WHERE FirstName  like 'J_hn' ;
+
+SELECT FirstName , LastName , Country, Email, Phone from customers 
+WHERE FirstName  like 'Leon__' ;</sql><sql name="SQL 12*">-- coalesce = replace null value
+SELECT Company,coalesce(Company, 'End Customer') FROM customers;
+-- Case When
+SELECT 
+            Company,
+			coalesce(Company, 'End Customer') AS 'Company Clean' ,
+			CASE WHEN Company is NULL then 'End Customer'
+			ELSE 'Corporate'
+			End AS 'Company Clean 2'
+FROM customers;</sql><sql name="SQL 13*">-- join + on
+SELECT * From artists JOIN albums 
+ON artists.ArtistId = albums.ArtistId;
+
+</sql><sql name="SQL 14*">-- where clause join
+SELECT 
+         artists.ArtistId,
+		 artists.Name AS artist_name,
+		 albums.Title As album_name
+From artists, albums 
+WHERE artists.ArtistId = albums.ArtistId
+    AND artists.ArtistId IN (8 , 100, 120 );
+    
+    
+SELECT 
+         artists.ArtistId,
+		 artists.Name AS artist_name,
+		 albums.Title As album_name,
+		 tracks.Name AS song_name
+From artists, albums, tracks 
+WHERE artists.ArtistId = albums.ArtistId
+    AND albums.AlbumId = tracks.AlbumId
+    AND artists.ArtistId IN (8 , 100, 120 );
+</sql><sql name="SQL 15*">--Aggregate function
+SELECT 
+        avg(Milliseconds),
+		sum(Milliseconds),
+		min(Milliseconds),
+		max(Milliseconds),
+		count(Milliseconds)
+FROM tracks ;
+
+-- ตั้งชื่อใหม่กด spacebar ได้ไม่ต้องใส่ AS
+SELECT 
+    avg(Milliseconds) avg_mill,
+		sum(Milliseconds) sum_mill,
+		min(Milliseconds) min_mill,
+		max(Milliseconds) max_mill,
+		count(Milliseconds) count_mill
+FROM tracks ;
+
+-- round คือการปรับเลขทศนิยม
+SELECT 
+    round (avg(Milliseconds), 2) avg_mill,
+		sum(Milliseconds) sum_mill,
+		min(Milliseconds) min_mill,
+		max(Milliseconds) max_mill,
+		count(Milliseconds) count_mill
+FROM tracks ;</sql><sql name="SQL 16*">-- Distinct = Unique value (ไม่ซ้ำกัน)
+SELECT DISTINCT Country FROM customers;
+
+-- Groupby 
+SELECT Country, count(*) AS count_country from customers
+GROUP BY Country ;
+
+-- having count = fillter after group by
+SELECT genres.name, count(*) AS count_song from genres, tracks
+where genres.GenreId = tracks.GenreId
+GROUP BY genres.Name
+HAVING count(*) &gt;= 100;
+
+-- order by
+SELECT  genres.Name , count(*) FROM genres , tracks
+where genres.GenreId = tracks.GenreId
+GROUP BY genres.Name
+ORDER By count(*) ;</sql><current_tab id="14"/></tab_sql></sqlb_project>
