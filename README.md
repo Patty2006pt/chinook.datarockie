@@ -1,4 +1,5 @@
 SQL Playground & Query Portfolio (Chinook Database)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A structured collection of SQL queries and data manipulation workflows built using SQLite / SQLBud (chinook.db), 
