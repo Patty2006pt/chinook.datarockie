@@ -11,14 +11,6 @@ SELECT
  LIMIT 10;
 
 
-
-
-
- 
-
- 
- 
- 
  </sql><sql name="SQL 3">-- change ตัวเลขเป็นทศนิยม สองตำแหน่งด้วย
 
 SELECT  
@@ -57,38 +49,53 @@ SELECT name,  random () from tracks
 ORDER BY random ()DESC ;</sql><sql name="SQL 8*">-- lower case
 SELECT * FROM customers
 WHERE lower (Country) = 'usa' ;
+
 --AND logic
 SELECT * FROM customers
 WHERE lower (Country) = 'usa' AND State = 'NY' ;
+
 --OR logic
 SELECT * FROM customers
 WHERE lower (Country) = 'usa' OR Country = 'Canada' ;
+
 --NOT  logic
 SELECT * FROM customers
 WHERE NOT (lower (Country) = 'usa' OR Country = 'Canada' );
+
 --FILTER data
 SELECT * FROM customers
 WHERE Country = 'Brazil' or Country = 'Norway' or Country = 'Germany' ;
+
 -- ใช้ IN แทน OR ได้เพื่อความกระชับ
 SELECT * FROM customers
 WHERE Country  IN ( 'Brazil' , 'Norway' , 'Germany' );
+
 --เงื่อนใขที่ไม่อยู่ในสามเงื่อนใขนี้จะขึ้นมาแทน
 SELECT * FROM customers
 WHERE Country  NOT IN ( 'Brazil' , 'Norway' , 'Germany' );
-</sql><sql name="SQL 9*">--BETWEEN logic
+
+</sql><sql name="SQL 9*">
+--BETWEEN logic
 SELECT * FROM customers
 WHERE CustomerId  BETWEEN 5 AND 10;
 
 SELECT InvoiceDate FROM invoices
 Where InvoiceDate Between '2009-01-01 00:00:00' AND '2009-01-19 00:00:00' ;</sql><sql name="SQL 10*">-- wild class
 SELECT FirstName , LastName , Country, Email from customers
-WHERE Email like '%@gmail.com' AND Country = 'USA' ;</sql><sql name="SQL 11*">--  _ ใช้ในกรณีที่ไม่รู้ว่าเขียนถูกไหม
+WHERE Email like '%@gmail.com' AND Country = 'USA' ;
+
+</sql><sql name="SQL 11*">
+--  _ ใช้ในกรณีที่ไม่รู้ว่าเขียนถูกไหม
 SELECT FirstName , LastName , Country, Email, Phone from customers 
 WHERE FirstName  like 'J_hn' ;
 
 SELECT FirstName , LastName , Country, Email, Phone from customers 
-WHERE FirstName  like 'Leon__' ;</sql><sql name="SQL 12*">-- coalesce = replace null value
+WHERE FirstName  like 'Leon__' ;
+
+</sql><sql name="SQL 12*">
+-- coalesce = replace null value
 SELECT Company,coalesce(Company, 'End Customer') FROM customers;
+
 -- Case When
 SELECT 
             Company,
@@ -96,11 +103,15 @@ SELECT
 			CASE WHEN Company is NULL then 'End Customer'
 			ELSE 'Corporate'
 			End AS 'Company Clean 2'
-FROM customers;</sql><sql name="SQL 13*">-- join + on
+FROM customers;
+
+</sql><sql name="SQL 13*">
+-- join + on
 SELECT * From artists JOIN albums 
 ON artists.ArtistId = albums.ArtistId;
 
-</sql><sql name="SQL 14*">-- where clause join
+</sql><sql name="SQL 14*">
+-- where clause join
 SELECT 
          artists.ArtistId,
 		 artists.Name AS artist_name,
@@ -119,7 +130,9 @@ From artists, albums, tracks
 WHERE artists.ArtistId = albums.ArtistId
     AND albums.AlbumId = tracks.AlbumId
     AND artists.ArtistId IN (8 , 100, 120 );
-</sql><sql name="SQL 15*">--Aggregate function
+
+</sql><sql name="SQL 15*">
+--Aggregate function
 SELECT 
         avg(Milliseconds),
 		sum(Milliseconds),
